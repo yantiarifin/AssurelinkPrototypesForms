@@ -17,7 +17,7 @@
                BlueprintIdentifier = "5BE830371BDF02F6003AFAB0"
                BuildableName = "AssurelinkPrototypes.app"
                BlueprintName = "AssurelinkPrototypes"
-               ReferencedContainer = "container:AssurelinkPrototypes.xcodeproj">
+               ReferencedContainer = "container:AssurelinkPrototypes_Forms.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "5BE8304E1BDF02F7003AFAB0"
                BuildableName = "AssurelinkPrototypesTests.xctest"
                BlueprintName = "AssurelinkPrototypesTests"
-               ReferencedContainer = "container:AssurelinkPrototypes.xcodeproj">
+               ReferencedContainer = "container:AssurelinkPrototypes_Forms.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "5BE830591BDF02F7003AFAB0"
                BuildableName = "AssurelinkPrototypesUITests.xctest"
                BlueprintName = "AssurelinkPrototypesUITests"
-               ReferencedContainer = "container:AssurelinkPrototypes.xcodeproj">
+               ReferencedContainer = "container:AssurelinkPrototypes_Forms.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "5BE830371BDF02F6003AFAB0"
             BuildableName = "AssurelinkPrototypes.app"
             BlueprintName = "AssurelinkPrototypes"
-            ReferencedContainer = "container:AssurelinkPrototypes.xcodeproj">
+            ReferencedContainer = "container:AssurelinkPrototypes_Forms.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "5BE830371BDF02F6003AFAB0"
             BuildableName = "AssurelinkPrototypes.app"
             BlueprintName = "AssurelinkPrototypes"
-            ReferencedContainer = "container:AssurelinkPrototypes.xcodeproj">
+            ReferencedContainer = "container:AssurelinkPrototypes_Forms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "5BE830371BDF02F6003AFAB0"
             BuildableName = "AssurelinkPrototypes.app"
             BlueprintName = "AssurelinkPrototypes"
-            ReferencedContainer = "container:AssurelinkPrototypes.xcodeproj">
+            ReferencedContainer = "container:AssurelinkPrototypes_Forms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
