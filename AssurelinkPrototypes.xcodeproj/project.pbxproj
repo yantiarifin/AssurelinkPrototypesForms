@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BE8303C1BDF02F6003AFAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8303B1BDF02F6003AFAB0 /* AppDelegate.swift */; };
+		5BE8303E1BDF02F6003AFAB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8303D1BDF02F6003AFAB0 /* ViewController.swift */; };
+		5BE830411BDF02F6003AFAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE8303F1BDF02F6003AFAB0 /* Main.storyboard */; };
+		5BE830441BDF02F7003AFAB0 /* AssurelinkPrototypes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE830421BDF02F6003AFAB0 /* AssurelinkPrototypes.xcdatamodeld */; };
+		5BE830461BDF02F7003AFAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE830451BDF02F7003AFAB0 /* Assets.xcassets */; };
+		5BE830491BDF02F7003AFAB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE830471BDF02F7003AFAB0 /* LaunchScreen.storyboard */; };
+		5BE830541BDF02F7003AFAB0 /* AssurelinkPrototypesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE830531BDF02F7003AFAB0 /* AssurelinkPrototypesTests.swift */; };
+		5BE8305F1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8305E1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BE830501BDF02F7003AFAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE830301BDF02F6003AFAB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE830371BDF02F6003AFAB0;
+			remoteInfo = AssurelinkPrototypes;
+		};
+		5BE8305B1BDF02F7003AFAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE830301BDF02F6003AFAB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE830371BDF02F6003AFAB0;
+			remoteInfo = AssurelinkPrototypes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BE830381BDF02F6003AFAB0 /* AssurelinkPrototypes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssurelinkPrototypes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE8303B1BDF02F6003AFAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BE8303D1BDF02F6003AFAB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BE830401BDF02F6003AFAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BE830431BDF02F6003AFAB0 /* AssurelinkPrototypes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssurelinkPrototypes.xcdatamodel; sourceTree = "<group>"; };
+		5BE830451BDF02F7003AFAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE830481BDF02F7003AFAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BE8304A1BDF02F7003AFAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE8304F1BDF02F7003AFAB0 /* AssurelinkPrototypesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssurelinkPrototypesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE830531BDF02F7003AFAB0 /* AssurelinkPrototypesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssurelinkPrototypesTests.swift; sourceTree = "<group>"; };
+		5BE830551BDF02F7003AFAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE8305A1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssurelinkPrototypesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE8305E1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssurelinkPrototypesUITests.swift; sourceTree = "<group>"; };
+		5BE830601BDF02F7003AFAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE830351BDF02F6003AFAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE8304C1BDF02F7003AFAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE830571BDF02F7003AFAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE8302F1BDF02F6003AFAB0 = {
+			isa = PBXGroup;
+			children = (
+				5BE8303A1BDF02F6003AFAB0 /* AssurelinkPrototypes */,
+				5BE830521BDF02F7003AFAB0 /* AssurelinkPrototypesTests */,
+				5BE8305D1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests */,
+				5BE830391BDF02F6003AFAB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE830391BDF02F6003AFAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE830381BDF02F6003AFAB0 /* AssurelinkPrototypes.app */,
+				5BE8304F1BDF02F7003AFAB0 /* AssurelinkPrototypesTests.xctest */,
+				5BE8305A1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE8303A1BDF02F6003AFAB0 /* AssurelinkPrototypes */ = {
+			isa = PBXGroup;
+			children = (
+				5BE8303B1BDF02F6003AFAB0 /* AppDelegate.swift */,
+				5BE8303D1BDF02F6003AFAB0 /* ViewController.swift */,
+				5BE8303F1BDF02F6003AFAB0 /* Main.storyboard */,
+				5BE830451BDF02F7003AFAB0 /* Assets.xcassets */,
+				5BE830471BDF02F7003AFAB0 /* LaunchScreen.storyboard */,
+				5BE8304A1BDF02F7003AFAB0 /* Info.plist */,
+				5BE830421BDF02F6003AFAB0 /* AssurelinkPrototypes.xcdatamodeld */,
+			);
+			path = AssurelinkPrototypes;
+			sourceTree = "<group>";
+		};
+		5BE830521BDF02F7003AFAB0 /* AssurelinkPrototypesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE830531BDF02F7003AFAB0 /* AssurelinkPrototypesTests.swift */,
+				5BE830551BDF02F7003AFAB0 /* Info.plist */,
+			);
+			path = AssurelinkPrototypesTests;
+			sourceTree = "<group>";
+		};
+		5BE8305D1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE8305E1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.swift */,
+				5BE830601BDF02F7003AFAB0 /* Info.plist */,
+			);
+			path = AssurelinkPrototypesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE830371BDF02F6003AFAB0 /* AssurelinkPrototypes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE830631BDF02F7003AFAB0 /* Build configuration list for PBXNativeTarget "AssurelinkPrototypes" */;
+			buildPhases = (
+				5BE830341BDF02F6003AFAB0 /* Sources */,
+				5BE830351BDF02F6003AFAB0 /* Frameworks */,
+				5BE830361BDF02F6003AFAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssurelinkPrototypes;
+			productName = AssurelinkPrototypes;
+			productReference = 5BE830381BDF02F6003AFAB0 /* AssurelinkPrototypes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BE8304E1BDF02F7003AFAB0 /* AssurelinkPrototypesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE830661BDF02F7003AFAB0 /* Build configuration list for PBXNativeTarget "AssurelinkPrototypesTests" */;
+			buildPhases = (
+				5BE8304B1BDF02F7003AFAB0 /* Sources */,
+				5BE8304C1BDF02F7003AFAB0 /* Frameworks */,
+				5BE8304D1BDF02F7003AFAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE830511BDF02F7003AFAB0 /* PBXTargetDependency */,
+			);
+			name = AssurelinkPrototypesTests;
+			productName = AssurelinkPrototypesTests;
+			productReference = 5BE8304F1BDF02F7003AFAB0 /* AssurelinkPrototypesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BE830591BDF02F7003AFAB0 /* AssurelinkPrototypesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE830691BDF02F7003AFAB0 /* Build configuration list for PBXNativeTarget "AssurelinkPrototypesUITests" */;
+			buildPhases = (
+				5BE830561BDF02F7003AFAB0 /* Sources */,
+				5BE830571BDF02F7003AFAB0 /* Frameworks */,
+				5BE830581BDF02F7003AFAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE8305C1BDF02F7003AFAB0 /* PBXTargetDependency */,
+			);
+			name = AssurelinkPrototypesUITests;
+			productName = AssurelinkPrototypesUITests;
+			productReference = 5BE8305A1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE830301BDF02F6003AFAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Arifin, Yanti";
+				TargetAttributes = {
+					5BE830371BDF02F6003AFAB0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YTM54U54LH;
+					};
+					5BE8304E1BDF02F7003AFAB0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YTM54U54LH;
+						TestTargetID = 5BE830371BDF02F6003AFAB0;
+					};
+					5BE830591BDF02F7003AFAB0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YTM54U54LH;
+						TestTargetID = 5BE830371BDF02F6003AFAB0;
+					};
+				};
+			};
+			buildConfigurationList = 5BE830331BDF02F6003AFAB0 /* Build configuration list for PBXProject "AssurelinkPrototypes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BE8302F1BDF02F6003AFAB0;
+			productRefGroup = 5BE830391BDF02F6003AFAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE830371BDF02F6003AFAB0 /* AssurelinkPrototypes */,
+				5BE8304E1BDF02F7003AFAB0 /* AssurelinkPrototypesTests */,
+				5BE830591BDF02F7003AFAB0 /* AssurelinkPrototypesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE830361BDF02F6003AFAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE830491BDF02F7003AFAB0 /* LaunchScreen.storyboard in Resources */,
+				5BE830461BDF02F7003AFAB0 /* Assets.xcassets in Resources */,
+				5BE830411BDF02F6003AFAB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE8304D1BDF02F7003AFAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE830581BDF02F7003AFAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE830341BDF02F6003AFAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE8303E1BDF02F6003AFAB0 /* ViewController.swift in Sources */,
+				5BE8303C1BDF02F6003AFAB0 /* AppDelegate.swift in Sources */,
+				5BE830441BDF02F7003AFAB0 /* AssurelinkPrototypes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE8304B1BDF02F7003AFAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE830541BDF02F7003AFAB0 /* AssurelinkPrototypesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE830561BDF02F7003AFAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE8305F1BDF02F7003AFAB0 /* AssurelinkPrototypesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BE830511BDF02F7003AFAB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE830371BDF02F6003AFAB0 /* AssurelinkPrototypes */;
+			targetProxy = 5BE830501BDF02F7003AFAB0 /* PBXContainerItemProxy */;
+		};
+		5BE8305C1BDF02F7003AFAB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE830371BDF02F6003AFAB0 /* AssurelinkPrototypes */;
+			targetProxy = 5BE8305B1BDF02F7003AFAB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BE8303F1BDF02F6003AFAB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE830401BDF02F6003AFAB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BE830471BDF02F7003AFAB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE830481BDF02F7003AFAB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE830611BDF02F7003AFAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BE830621BDF02F7003AFAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE830641BDF02F7003AFAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AssurelinkPrototypes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yantronica.AssurelinkPrototypes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BE830651BDF02F7003AFAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AssurelinkPrototypes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yantronica.AssurelinkPrototypes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BE830671BDF02F7003AFAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AssurelinkPrototypesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yantronica.AssurelinkPrototypesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssurelinkPrototypes.app/AssurelinkPrototypes";
+			};
+			name = Debug;
+		};
+		5BE830681BDF02F7003AFAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AssurelinkPrototypesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yantronica.AssurelinkPrototypesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssurelinkPrototypes.app/AssurelinkPrototypes";
+			};
+			name = Release;
+		};
+		5BE8306A1BDF02F7003AFAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AssurelinkPrototypesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yantronica.AssurelinkPrototypesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssurelinkPrototypes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5BE8306B1BDF02F7003AFAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AssurelinkPrototypesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yantronica.AssurelinkPrototypesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssurelinkPrototypes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE830331BDF02F6003AFAB0 /* Build configuration list for PBXProject "AssurelinkPrototypes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE830611BDF02F7003AFAB0 /* Debug */,
+				5BE830621BDF02F7003AFAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE830631BDF02F7003AFAB0 /* Build configuration list for PBXNativeTarget "AssurelinkPrototypes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE830641BDF02F7003AFAB0 /* Debug */,
+				5BE830651BDF02F7003AFAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BE830661BDF02F7003AFAB0 /* Build configuration list for PBXNativeTarget "AssurelinkPrototypesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE830671BDF02F7003AFAB0 /* Debug */,
+				5BE830681BDF02F7003AFAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BE830691BDF02F7003AFAB0 /* Build configuration list for PBXNativeTarget "AssurelinkPrototypesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE8306A1BDF02F7003AFAB0 /* Debug */,
+				5BE8306B1BDF02F7003AFAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BE830421BDF02F6003AFAB0 /* AssurelinkPrototypes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BE830431BDF02F6003AFAB0 /* AssurelinkPrototypes.xcdatamodel */,
+			);
+			currentVersion = 5BE830431BDF02F6003AFAB0 /* AssurelinkPrototypes.xcdatamodel */;
+			path = AssurelinkPrototypes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BE830301BDF02F6003AFAB0 /* Project object */;
+}
